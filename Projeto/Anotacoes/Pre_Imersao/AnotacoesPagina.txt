@@ -1,0 +1,72 @@
+ - Podemos agilizar a criação da pagima HTML utilizando o Emmet Abbreviation, basicamente é um atalho, para criar as 
+informações básicas/Estruturais da página HTML.
+
+Colocando => ! e apertando "Enter" irá aparecer o seguinte trecho de código.
+
+Ex:
+<!DOCTYPE html>
+<html lang="pt-BR"> -- Defini a lingua que iremos utilizar.
+<head>
+    <meta charset="UTF-8"> -- Seria a códificação que iremos utilizar (caracteres).
+    <meta http-equip="X-UA-Compatible" content="IE=edge"> -- Ele utiliza a ultima versão do navegador especificado.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -- Defini a escala inicial da página (basiado no dispositivo que será utilizado, celular ou computador etc).
+    <title>Portfolio</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+ - Iremos criar a página de acordo com o figma, e temos que criar as estruturas da pagina com
+menu, conteudo e o rodapé.
+
+ == Conteudo adicional:
+Imagine que você é um desenvolvedor de software trabalhando em um projeto web no Visual Studio Code (VSCode). 
+Você está inserido em um ambiente ágil, onde a produtividade e a eficiência são fundamentais. 
+O projeto exige a criação de código HTML e CSS para várias páginas e elementos. 
+No entanto, escrever todo esse código repetitivo pode ser entediante e consumir muito tempo.
+
+O problema
+
+O problema em questão é a necessidade de acelerar o processo de escrita de código HTML e CSS no VSCode. 
+Os desenvolvedores frequentemente se deparam com tarefas repetitivas, como criar várias tags, classes e IDs, 
+o que pode levar a erros e diminuir a velocidade de desenvolvimento. 
+Além disso, novos membros da equipe podem levar tempo para se familiarizar com o código já existente, caso a estrutura não
+esteja otimizada.
+
+A solução
+
+Para resolver esse problema, podemos contar com o auxílio do Emmet, uma extensão poderosa e amplamente utilizada no VSCode.
+ O Emmet: https://docs.emmet.io/ é uma ferramenta que permite escrever códigos HTML e CSS de forma extremamente rápida e 
+produtiva. 
+Ele utiliza abreviações para gerar estruturas complexas de código com apenas alguns comandos, aumentando significativamente
+a eficiência do desenvolvedor.
+
+O que é Emmet
+
+Emmet, anteriormente conhecido como Zen Coding, é uma ferramenta de codificação avançada desenvolvida por Sergey Chikuyonok.
+ Ele foi projetado para facilitar a escrita de código HTML e CSS de forma rápida e simplificada. 
+O Emmet oferece uma maneira inteligente de criar estruturas complexas por meio de abreviações fáceis de lembrar.
+
+O Emmet utiliza a sintaxe CSS-like para criar código HTML e CSS. 
+Com apenas algumas letras-chave, você pode gerar rapidamente blocos inteiros de código. 
+Por exemplo, ao digitar ul>li*3, 
+o Emmet criará automaticamente uma lista não ordenada (ul) com três itens de lista (li).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

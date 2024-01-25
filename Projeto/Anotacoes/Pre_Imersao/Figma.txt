@@ -1,0 +1,6 @@
+
+ - O figma é utilizado pela equipe de UX/IX afim de montar uma pagina de fato, com layout com uma
+experiencia de usuario atribuida.
+ Com o figma, podemos inspecionar os elementos e descobrir as propriedades de cada item selecionado, por exemplo um botão
+conseguimos ver as propriedades de largura, comprimento, borda e etc, com isso montamos o layout codando e deixando
+igual.
