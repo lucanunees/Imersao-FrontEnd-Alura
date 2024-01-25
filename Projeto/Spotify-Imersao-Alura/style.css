@@ -1,0 +1,48 @@
+body {
+    background-color: #000;
+}
+
+.sidebar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navegation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.sidebar_navegation .logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px; /* Para o texto não ficar grudado com a imagem*/
+    padding: 0 20px 0 20px; /* para se ajustar dentro da div*/
+
+}
+
+.sidebar nav ul li{
+    padding: 10px 0; /*Quando colocamos dois siginifica que o primeiro 10px é em cima e embaixo e o 0 será na direita e esquerda.*/
+
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3; /* Cor da fonte*/
+    text-decoration: none; /* Tirar as bolinhas/sublinhado que já vem na li*/
+    font-weight: 600; /*Definir a espessura da fonte, mais grossa ou mais fina.*/
+    font-size: 14px; /*Defini o tamanho da font.*/
+    font-family: "DM Sans", sans-serif; /*Defini o formato da fonte.*/
+}
