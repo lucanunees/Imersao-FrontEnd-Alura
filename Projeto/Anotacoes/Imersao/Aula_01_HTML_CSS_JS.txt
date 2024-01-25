@@ -1,0 +1,12 @@
+ ===========  AULA 01: HTML, CSS E JS NA PRÁTICA ======
+
+LINK AULA -> https://www.youtube.com/watch?v=iWKNvmS6_gA
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Importante lembrar que o HTML cria os elementos da página, o que veremos nela.
+O CSS irá estilizar os elementos, com Cor, fonte, tudo que for referente a estilo.
+O JS (JavaScript) é responsável por dar dinamismo á pagina, conseguimos fazer a tela se comportar/interagir com o usuário.
+
+* HTML seria nosso esqueleto, css será o nosso corpo e como ele é e o JS é o nosso cerebro, a inteligencia que faz tudo
+funcionar *

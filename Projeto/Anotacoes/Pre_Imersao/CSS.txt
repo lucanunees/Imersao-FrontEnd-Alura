@@ -1,0 +1,17 @@
+ 		** CSS seria a Estilização da página **
+
+- O CSS descreve como os elementos HTML devem ser exibidos na tela.
+
+Documentação CSS -> https://www.w3schools.com/css/
+
+É recomendado criar um arquivo CSS externo com extensão .css e incluí-lo na estrutura head do HTML. 
+Assim, conseguimos ter uma estrutura de estilos universal para várias páginas.
+
+O CSS externo é o mais indicado e recomendado, pois além dos seus arquivos HTML ficarem com uma estrutura mais limpa 
+e tamanho menor, os mesmos estilos do arquivo .css podem ser usados em várias páginas.
+
+-- É necessário Linkar um arquivo com o outro, exemplo o arquivo index.html tem que enxergar o arquivo Style.css pra assim
+as estilizações que foram realizadas no style.css se apliquem na página Html.
+ E realizamos esse link, colocando as informações dentro da tag head, junto com os meta dados.
+ Desta forma: <link rel="stylesheet" href="Style.css">
+
