@@ -1,8 +1,8 @@
- ===========  AULA 01: HTML, CSS E JS NA PRÁTICA ======
+ 				===========  AULA 01: HTML, CSS E JS NA PRÁTICA ======
 
 LINK AULA -> https://www.youtube.com/watch?v=iWKNvmS6_gA
 
----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 Importante lembrar que o HTML cria os elementos da página, o que veremos nela.
 O CSS irá estilizar os elementos, com Cor, fonte, tudo que for referente a estilo.
@@ -10,3 +10,41 @@ O JS (JavaScript) é responsável por dar dinamismo á pagina, conseguimos fazer
 
 * HTML seria nosso esqueleto, css será o nosso corpo e como ele é e o JS é o nosso cerebro, a inteligencia que faz tudo
 funcionar *
+
+ 				    ===========  INICIO DO CÓDIGO ===========    
+
+- Começamos a criar uma página igual à página do Spotify, iniciamos criando os arquivos principais: index.html, style.css e
+script.js.
+
+- Depois, criamos a estrutura básica do HTML, utilizando o Emmet Abreviation (!).
+
+- Após criar a estrutura da página, realizamos o link com o nosso CSS, utilizando a tag <link> e utilizamos também
+para pegar as classes/icons do FontAwesome.
+
+- Iniciamos a criação da página pelo menu utilizando a tag <nav> e dentro dela utilizamos a tag de lista (<ul>) com dois
+items (<li>) e dentro de cada <li> teremos o os item de navegação "Iniciar" e "Buscar".
+Adicionamos também a tag <a que será o link dessas navegações e acrescentamos a tag <img> para colocar imagens.
+
+- Precisamos estilizar essa nav, por isso criamos uma classe (sidebar_navegation) e dentro dela iremos colocar os
+estilos.
+
+ * Para estilizar uma class, devemos colocar desta forma no style.css .sidebar_navegation{} *
+
+- Criamos também a classe (sidebar), aonde iremos estilizar o conteudo dentro dela.
+
+- Criamos também a classe logo, para estilizar o logotipo sem precisar mexer nas outras estruturas das classes sidebar e sidebar_navegation.
+
+- Iremos realizar o reset do CSS na página, criando o arquivo reset.css, quando criamos uma página ela já vem com alguns estilos proprios, 
+realizam o reset iremos retirar todos esses estilos. 
+
+ ** A ordem dos links são importantes pois podem sobrescrever os demais, então é importante ter uma ordem pois sempre irá prevalecer o ultimo. **
+- Iremos colocar o link do reset.css antes do style.
+
+- Iniciamos a estilização da classe logo, antes fizemos somente da img que tem dentro da classe logo, agora estamos estilizando
+a div inteira.
+
+- Iniciamos a estilização da navegação e da lista.
+
+
+
+
