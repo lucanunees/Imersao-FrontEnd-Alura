@@ -1,0 +1,103 @@
+ ========= Siginificado das tags e estruturas CSS ========= 
+
+-- Da forma embaixo, estamos estilizando tudo que estiver dentro do body, todos os elementos que tiverem h1.
+
+ body {
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+- Desta forma, estamos estilizando a classe siderbar_navegation, todo o elemento que estiver utilizando essa classe irá
+pegar os estilos e formas abaixo.
+
+.sidebar_navegation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px; 
+}
+
+- Significado de "padding": O padding serve para ter um distanciamento dentro dele mesmo, e é definido desta forma
+16px = cima, em sequencia o 0= direita, depois 0 = baixo e por ultimo o 16px = Esquerda.
+
+- Significado de "border-radius": É o formado da borda, no caso arrendonda.
+
+- Significado de "background-color": É a cor de fundo. 
+
+----------------------------------------------------------------------------------------------------------------------------------
+- Desta forma, estamos estilizando a classe sidebar todo o elemento que estiver utilizando essa classe irá
+pegar os estilos e formas abaixo.
+
+.sidebar{
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    padding: 12px;
+    width: 300px;
+}
+
+- Sempre utilizamos o top, left, rigth e bottom, quando a position é fixed, absolute e relative.
+- Significado de position: Defini que esse elemento será fixo na tela.
+- Significado de top: Defini que esse elemento sempre ficara no topo da tela.
+- Significado de left: Defini que sempre ficará a esquerda. 
+- Significado de bottom: Defini que sempre ficará em baixo.
+- Quando definimos o padding com um valor unico, significa que todos os lados teram o mesmo espaçamento.
+- Significado de width: Será a largura que esse elemento irá ocupar da tela.
+----------------------------------------------------------------------------------------------------------------------------------
+- Desta forma, estamos estilizando a classe .logo e que dentro do logo, tem uma tag img é essa tag img que irá receber os estilos.
+
+.logo img{
+    width: 80px;
+}
+
+- Significado de width: Será a largura que esse elemento irá ocupar da tela.
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+- Desta forma, estamos estilizando a classe .logo que esta dentro da classe .sidebar_navegation.
+
+.sidebar_navegation .logo{
+ background-color: #121212;
+ display: flex;
+ border-radius: 8px;
+ padding: 16px 0 0 16px;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+- Desta froma, iremos estilizar algumas classes abaixo e a parte da lista.
+
+
+.sidebar nav ul{
+    margin-top: 20px; /* Para o texto não ficar grudado com a imagem*/
+    padding: 0 20px 0 20px; /* para se ajustar dentro da div*/
+
+}
+
+.sidebar nav ul li{
+    padding: 10px 0; /*Quando colocamos dois siginifica que o primeiro 10px é em cima e embaixo e o 0 será na direita e esquerda.*/
+
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3; /* Cor da fonte*/
+    text-decoration: none; /* Tirar as bolinhas/sublinhado que já vem na li*/
+    font-weight: 600; /*Definir a espessura da fonte, mais grossa ou mais fina.*/
+    font-size: 14px; /*Defini o tamanho da font.*/
+    font-family: "DM Sans", sans-serif; /*Defini o formato da fonte.*/
+}
+
+
+
+
+
+
+
+
+
+
+
+

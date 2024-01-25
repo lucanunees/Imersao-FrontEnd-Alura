@@ -27,8 +27,11 @@
  <img> -- Essa Tag não fecha, é utilizada para inserir uma imagem na tela.
  <link>	-- Essa Tag não fecha, é utlizada para linkar um arquivo css com a página.
  <link rel="stylesheet" href="Style.css"> -- rel significa tipo de relacionamento e href o caminho aonde esta o arquivo. 
-
-
+ <nav></nav> -- Utilizada para criar menus.
+ <span></span> --É uma tag de uso genérico, sem nenhuma função específica. Ela é usada para modificar propriedades do texto
+ou separar partes do texto, de forma que o código CSS ou a programação javascript possam atuar nestes trechos.
+ <div></div> -- Utilizamos a Div para quebrar em várias partes o código e quando precisamos mexer em algum especifico, que tenha uma cor ou tamanho
+diferente, irá alterar somente essa div desde que ela tenha uma classe.
 
 
 
