@@ -1,5 +1,5 @@
 
- == Siginificado das TAGS.
+ == Siginificado das TAGS HTML.
 
 <!DOCTYPE html>
 <html lang="pt-BR"> -- Defini a lingua que iremos utilizar.
@@ -14,25 +14,26 @@
 </body>
 </html>
 
- <header></header> -- Seria o cabelhaço da pagina
- <main></main> -- Seria o conteudo principal.
- <body></body> -- Seria o corpo da página.
- <html></html> -- Seria a página HTML. 
- <!DOCTYPE html> -- Seria a versão do HTML, no caso HTML 5.
- <footer></footer> -- Seria o rodapé da pagina.
- <h1></h1> -- É utilizado para criar Títulos.
- <strong></strong> -- É utilizado para destacar um conteúdo.
- <p></p> -- Seria um parágrafo.
- <a></a> -- Seria uma Tag angora, que irá me redirecionar para algum site ou algo do tipo.
- <img> -- Essa Tag não fecha, é utilizada para inserir uma imagem na tela.
- <link>	-- Essa Tag não fecha, é utlizada para linkar um arquivo css com a página.
+ <header></header> --> Seria o cabelhaço da pagina
+ <main></main> --> Seria o conteudo principal.
+ <body></body> --> Seria o corpo da página.
+ <html></html> --> Seria a página HTML. 
+ <!DOCTYPE html> --> Seria a versão do HTML, no caso HTML 5.
+ <footer></footer> --> Seria o rodapé da pagina.
+ <h1></h1> --> É utilizado para criar Títulos.
+ <strong></strong> --> É utilizado para destacar um conteúdo.
+ <p></p> --> Seria um parágrafo.
+ <a></a> --> Seria uma Tag angora, que irá me redirecionar para algum site ou algo do tipo.
+ <img> --> Essa Tag não fecha, é utilizada para inserir uma imagem na tela.
+ <link>	--> Essa Tag não fecha, é utlizada para linkar um arquivo css com a página.
  <link rel="stylesheet" href="Style.css"> -- rel significa tipo de relacionamento e href o caminho aonde esta o arquivo. 
- <nav></nav> -- Utilizada para criar menus.
- <span></span> --É uma tag de uso genérico, sem nenhuma função específica. Ela é usada para modificar propriedades do texto
+ <nav></nav> --> Utilizada para criar menus.
+ <span></span> --> É uma tag de uso genérico, sem nenhuma função específica. Ela é usada para modificar propriedades do texto
 ou separar partes do texto, de forma que o código CSS ou a programação javascript possam atuar nestes trechos.
- <div></div> -- Utilizamos a Div para quebrar em várias partes o código e quando precisamos mexer em algum especifico, que tenha uma cor ou tamanho
+ <div></div> --> Utilizamos a Div para quebrar em várias partes o código e quando precisamos mexer em algum especifico, que tenha uma cor ou tamanho
 diferente, irá alterar somente essa div desde que ela tenha uma classe.
-
+ <section></section> --> É um código aonde iremos trabalhar porçoes diferentes, como se todo o conteudo ali dentro fosse relacionado ao mesmo assunto.
+Como se a casa fosse a div e a section os comodos.
 
 
 

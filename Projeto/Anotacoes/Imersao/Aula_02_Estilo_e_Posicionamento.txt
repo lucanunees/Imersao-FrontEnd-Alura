@@ -1,0 +1,28 @@
+		===========  AULA 02: Estilo avançado e Posicionamento: Transformando Layouts ======
+
+LINK AULA -> https://www.youtube.com/watch?v=3fPBthrfOI8
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ** É uma boa prática, ao criar Classes, adicionar dois Underscore (__).
+EX: Eu tenho uma classe criada chamada "Library" e uma outra chamada "Library__content" ou seja a content está dentro da Library. **
+ 
+
+- Iremos inicializar a criação da classe Library e Library__Content.
+- Criamos também a classe Library__Button com dois span, aonde terá o ícone de clicar para criar e o outro span será o nome mesmo "Sua biblioteca".
+- Adicionamos outro span fora do button, aonde será o ícone de "+".
+- Dentro da class library, criamos uma section.
+- Dentro da section, criamos  uma div "Playlist__content" com dois span para utilizar o titulo e o texto.
+
+** Podemos utilizar mais de uma classe dentro de um elemento, porém o mais recomendado é utilizar até 3 classes, ficando da seguinte forma:
+<span class="text title"></span> **
+
+- Criamos mais dois span aonde iremos colocar o texto e abaixo o botão "Crie sua playlist".
+- Criamos uma div para adicionar o cookies.
+- Criamos uma div para colocar o language.
+- E após acrescentar todos os elementos HTML, com as devidas classes e tipos, iremos estilizar essas classes com o css.
+- Vamos começar estilizando a classe .library.
+- Realizamos a estilização de todas as classes utilizadas.
+
+
+ 
