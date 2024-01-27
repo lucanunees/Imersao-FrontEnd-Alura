@@ -1,0 +1,73 @@
+	========= Siginificado das tags e estruturas CSS ========= 
+
+-- Significado de cada propriedade CSS.
+
+background-color: #000; --> Mudar a cor de fundo.
+
+color:  #fff; --> Mudar a cor da font
+
+padding: 16px 0 0 16px; -->  O padding serve para ter um distanciamento dentro dele mesmo, e é definido desta forma
+16px = cima, em sequencia o 0= direita, depois 0 = baixo e por ultimo o 16px = Esquerda.
+
+padding: 10px 0; --> Quando colocamos dois siginifica que o primeiro 10px é em cima e embaixo e o 0 será na direita e esquerda.
+
+border-radius: 8px; --> É o formado da borda, no caso arrendonda.
+
+.sidebar{
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    padding: 12px;
+    width: 300px;
+}
+
+- Sempre utilizamos o top, left, rigth e bottom, quando a position é fixed, absolute e relative.
+- Significado de position: Defini que esse elemento será fixo na tela.
+- Significado de top: Defini que esse elemento sempre ficara no topo da tela.
+- Significado de left: Defini que sempre ficará a esquerda. 
+- Significado de bottom: Defini que sempre ficará em baixo.
+- Quando definimos o padding com um valor unico, significa que todos os lados teram o mesmo espaçamento.
+- Significado de width: Será a largura que esse elemento irá ocupar da tela.
+
+width: 80px; --> Será a largura que esse elemento irá ocupar da tela.
+
+margin-top: 20px; --> Para o texto não ficar grudado com a imagem.
+
+text-decoration: none; --> Tirar as bolinhas/sublinhado que já vem na li.
+
+font-weight: 600; --> Definir a espessura da fonte, mais grossa ou mais fina.
+
+font-size: 14px; --> Defini o tamanho da font
+
+font-family: "DM Sans", sans-serif; --> Defini o estilo/familia da fonte.
+
+display: flex; --> O flexbox é uma técnica do css e ele trás uma forma de fazer a orientação do código, de uma forma mais flexivel
+quando colocamos o display flex, conseguimos alterar a orientação/posicionamento desses objetos de uma forma mais fácil, em colunas, linhas.
+
+justify-content: space-between; --> Ele trabalha junto com o display flex, e no caso ele deixará o conteudo tudo justificado com um espaço entre
+os objetos.
+
+flex-direction: column; --> Ele trabalha junto com o display flex, e ele quer dizer que esse posicionamento vai estar flexivel em qual direção.
+
+border: 0px; --> Retira a borda que já vem por padrão do button.
+
+margin-right: 10px; --> Para não ficar grudado no canto direito empurrando o elemnto pra direita.
+
+padding-right: 8px; --> Criar um espaçamento em torno dele.
+
+align-items: flex-start; --> Outra propriedade que trabalha junto com o display flex.
+
+justify-content: space-between; --> Outra propridade que trabalha com o display flex, utilizada para Organizar de uma forma justificada e colocar um espaço entre os elementos.
+
+gap: 20px; --> O Gap vai falar o espaço entre as propriedades que estão justificadas. exemplo do justify-content, ele cria esse espaçamento.
+
+flex-direction: column; --> Para organizar o conteudo em coluna.
+
+border: 1px solid #878787; --> Aqui estamos passsando todas as propriedades para o formato do botão, borda, espessura da borda e cor.
+
+/*Quando utilizamos o hover, é como se fosse uma "animação" porém é uma pseudo classes,
+ou seja quando muda o estado ao passar o mouse sobre esse elemento ele irá no caso sublinhar.*/
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
