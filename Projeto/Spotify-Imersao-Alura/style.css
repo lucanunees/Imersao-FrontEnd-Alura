@@ -29,22 +29,22 @@ body {
 }
 
 .sidebar nav ul{
-    margin-top: 20px; /* Para o texto não ficar grudado com a imagem*/
-    padding: 0 20px 0 20px; /* para se ajustar dentro da div*/
+    margin-top: 20px;
+    padding: 0 20px 0 20px; 
 
 }
 
 .sidebar nav ul li{
-    padding: 10px 0; /*Quando colocamos dois siginifica que o primeiro 10px é em cima e embaixo e o 0 será na direita e esquerda.*/
+    padding: 10px 0; 
 
 }
 
 .sidebar nav ul li a{
-    color: #b3b3b3; /* Cor da fonte*/
-    text-decoration: none; /* Tirar as bolinhas/sublinhado que já vem na li*/
-    font-weight: 600; /*Definir a espessura da fonte, mais grossa ou mais fina.*/
-    font-size: 14px; /*Defini o tamanho da font.*/
-    font-family: "DM Sans", sans-serif; /*Defini o formato da fonte.*/
+    color: #b3b3b3; 
+    text-decoration: none; 
+    font-weight: 600; 
+    font-size: 14px; 
+    font-family: "DM Sans", sans-serif; 
 }
 
 .library{
@@ -62,7 +62,7 @@ body {
 
 .library .library__content{
     display: flex;
-    justify-content: space-between; /*organizar o conteudo da forma justificada*/
+    justify-content: space-between; 
 }
 
 .library .library__button{
@@ -70,22 +70,22 @@ body {
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
-    border: 0px; /*Retira a borda que já vem por padrão do button*/
+    border: 0px; 
     font-size: 14px; 
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
-    text-align: center; /*Alinha o texto no centro*/
-    text-decoration: none; /*tira os propriedades do button, no caso o sublinhado por exemplo*/
+    text-align: center; 
+    text-decoration: none; 
     text-transform: none;
-    padding: 20px 10px; /*espaçamento de 20 cima e baixo e 10 das laterais.*/
+    padding: 20px 10px; 
 }
 
 /*Trabalhando classe do icone*/
 .library .library__button .fa{
     font-size: 20px;
-    margin-right: 10px; /*Para não ficar grudado no canto direito empurrando o elemnto pra direita.*/
+    margin-right: 10px; 
     font-weight: 300;
-    padding-right: 8px; /*Criar um espaçamento em torno dele.*/
+    padding-right: 8px; 
 }
 
 /*Trabalhando classe do icone*/
@@ -95,9 +95,9 @@ body {
 
 .section-playlist{
     display: flex;
-    align-items: flex-start; /*Outra propriedade que trabalha junto com o display flex*/
-    justify-content: space-between; /*Outra propridade que trabalha com o display flex, utilizada para Organizar de uma forma justificada e colocar um espaço entre os elementos.*/
-    gap: 20px; /*O Gap vai falar o espaço entre as propriedades que estão justificadas. exemplo do justify-content, ele cria esse espaçamento*/
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px; 
     background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
@@ -108,8 +108,8 @@ body {
 }
 
 .section-playlist .section-playlist__content{
-    display: flex; /*Organizar os elementos que estão dentro do content.*/
-    flex-direction: column; /*Para organizar o conteudo em coluna.*/
+    display: flex;
+    flex-direction: column; 
 }
 
 .section-playlist__content .text{
@@ -129,18 +129,18 @@ body {
 
 .section-playlist__content .section-playlist__button{
     display: flex;
-    justify-content: center; /*Irá alinha o texto com o centro do button*/
+    justify-content: center; 
     background-color: #fff;
     color:#000;
-    border-radius: 20px; /*Arredondar as boras*/
+    border-radius: 20px; 
     font-size: 12px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
-    text-decoration: none; /*tira as propriedades que vem por padrão do button*/
+    text-decoration: none; 
     text-transform: none;
-    padding: 10px; /*Coloca o espaçamento em todos os lados*/
+    padding: 10px; 
     margin-top: 12px;
-    border: 0px; /*para não criar a borda.*/
+    border: 0px; 
     width: 113px;
 }
 
@@ -155,16 +155,15 @@ body {
     text-decoration: none;
 }
 
-/*Quando utilizamos o hover, é como se fosse uma "animação" porém é uma pseudo classes,
-ou seja quando muda o estado ao passar o mouse sobre esse elemento ele irá no caso sublinhar.*/
+
 .sidebar .cookies a:hover{
     text-decoration: underline;
 }
 
 .languages .languages__button{
-    align-items: center; /*Não precisa do display flex pois só tem esse texto.*/
+    align-items: center; 
     background-color: transparent;
-    border: 1px solid #878787; /*aqui estamos passsando todas as propriedades para o formato do botão, borda, espessura da borda e cor.*/
+    border: 1px solid #878787; 
     color: #fff;
     font-weight: bold;
     cursor: pointer;
