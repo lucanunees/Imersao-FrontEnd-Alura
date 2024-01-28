@@ -10,7 +10,7 @@ h1{
     color: #fff;
 }
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Desta forma, estamos estilizando a classe siderbar_navegation, todo o elemento que estiver utilizando essa classe irá
 pegar os estilos e formas abaixo.
 
@@ -27,7 +27,7 @@ pegar os estilos e formas abaixo.
 
 - Significado de "background-color": É a cor de fundo. 
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Desta forma, estamos estilizando a classe sidebar todo o elemento que estiver utilizando essa classe irá
 pegar os estilos e formas abaixo.
 
@@ -47,7 +47,7 @@ pegar os estilos e formas abaixo.
 - Significado de bottom: Defini que sempre ficará em baixo.
 - Quando definimos o padding com um valor unico, significa que todos os lados teram o mesmo espaçamento.
 - Significado de width: Será a largura que esse elemento irá ocupar da tela.
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Desta forma, estamos estilizando a classe .logo e que dentro do logo, tem uma tag img é essa tag img que irá receber os estilos.
 
 .logo img{
@@ -57,7 +57,7 @@ pegar os estilos e formas abaixo.
 - Significado de width: Será a largura que esse elemento irá ocupar da tela.
 
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Desta forma, estamos estilizando a classe .logo que esta dentro da classe .sidebar_navegation.
 
 .sidebar_navegation .logo{
@@ -67,7 +67,7 @@ pegar os estilos e formas abaixo.
  padding: 16px 0 0 16px;
 }
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Desta froma, iremos estilizar algumas classes abaixo e a parte da lista.
 
 
@@ -90,7 +90,7 @@ pegar os estilos e formas abaixo.
     font-family: "DM Sans", sans-serif; /*Defini o formato da fonte.*/
 }
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .library{
     background-color: #121212; /* Cor de fundo */
@@ -107,7 +107,7 @@ os objetos.*/
     margin-top: 10px; /*Deixar um espaço para não ficar colado no elemento acima.*/	
 }
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - Toda classe CSS até o momento com a estilização do nav.
 
 .library .library__content{
@@ -223,12 +223,165 @@ ou seja quando muda o estado ao passar o mouse sobre esse elemento ele irá no c
     padding: 8px;
     border-radius: 20px;
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*É utilizado o root, como se fosse a raiz, aonde pegamos todas as "configurações" que seriam repetidas
+no código. */
 
+/*É como se fosse uma variavel, aonde iremos passar um estilo e utilizar em outros lugares.
+ Ai caso precise ser alterado essa font é só trocar na variavel.*/
 
+:root{   
+    /*FONTE padrão.*/
+    --font-dm-sans: "DM Sans", sans-serif;
 
+    /*Cores padrão*/
+    --color-font: #b3b3b3;
+}
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Utilizado para criar o footer
 
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
 
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Estilizando o menu de navegacao de cima
+
+/*Estilizando o container inteiro, o "quadrado inteiro"*/
+.main-container{
+    max-width: 80vw; /* Largura máxima, ou seja o vw, significa "view Port".  No caso irá
+    ficar 20% da tela pro menu lateral e 80% resntante para a tela de navegação de cima.*/
+    height: 100vh; /*Significa que irá ocupar 100% da tela.*/
+    margin-left: 320px; /*Joga/empurra o conteudo pra direita*/
+    margin-right: 56px; /*Joga/empurra o conteudo pra Esquerda*/
+
+}
+
+/*Estilizando a tag Nav, com o conteudo.*/
+.header__navigation{
+    display: flex;
+    justify-content: space-between; /*distribui o conteudo com os mesmos espaçamentos entre eles.*/
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--color-background-nav);
+}
+
+/*Estilizando a classe navigation, aonde tem as setas, o input de pesquisa.*/
+.header__navigation .navigation{
+    display: flex;
+    justify-content: space-around; /*Deste modo ele irá fazer uma tratativa deixando os elementos em volta dele.*/
+    align-items: center;
+}
+
+/*Estilizando a seta de esquerda*/
+.header__navigation .navigation .arrow-left{
+    margin-right: 1.25rem; /*O rem é uma unidade de medida que não é estatico, ele é relativa.
+    Aproximadamente 16 px equivale à 1rem*/
+}
+
+/*Desta forma eu estou atribuindo á duas classes diferentes as propriedades abaixo*/
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon); 
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #fff;
+    text-overflow: ellipsis; /*acrescenta os 3 pontinhos quando tem muito texto.*/
+    overflow: hidden; /*trabalha em conjunto com o text-overflow, escondendo o restante do texto*/
+    white-space: nowrap; /*deixa o texto em uma linha só.*/
+    outline: none; /*não criar a barrinha em volta para digitar*/
+}
+
+.header__login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+}
 

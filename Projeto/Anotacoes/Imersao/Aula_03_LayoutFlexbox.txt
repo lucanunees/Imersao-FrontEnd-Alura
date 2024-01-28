@@ -1,0 +1,17 @@
+		===========  AULA 03: Layout Flexbox, Pseudo-classes e Responsividade em CSS ======
+
+LINK AULA -> https://youtube.com/watch?v=UbBuX2eOuco
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+- Foi copiado o código do footer, não fiz o desafio :(, porém repassei o código afim de entender o que foi feito.
+- Foi criado uma classe seguindo o mesmo formato dos anteriores, um classe para o footer e classe para o conteudo.
+- Foi utilizado a tag <footer> que é justamente para o rodapé, deixando o código semantico.
+- Foi utilizado a tag <p> de paragrafo e também adicionado um button, tudo separado em div.
+
+- Na Aula 03, iremos organizar o código colocando os arquivos CSS dentro de uma única pasta.
+- Criamos um arquivo css, chamado "vars" aonde teremos as variaveis para utilizar no código, e quando precisar realizar a alteração de algo, trocamos
+apenas na variavel que já irá afetar no código inteiro.
+- Criamos o conteudo principal, utilizando a tag main e dentro dela, temos o conteudo principal de busca, botão inscrever-se ou entrar, 
+temos também o botão de buscar por musica e realizar a estilização desses elementos utilizando um novo arquivo css chamado main-content.
