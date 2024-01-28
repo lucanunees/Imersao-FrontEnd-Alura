@@ -1,0 +1,16 @@
+/*É utilizado o root, como se fosse a raiz, aonde pegamos todas as "configurações" que seriam repetidas
+no código. */
+
+/*É como se fosse uma variavel, aonde iremos passar um estilo e utilizar em outros lugares.
+ Ai caso precise ser alterado essa font é só trocar na variavel.*/
+
+:root{   
+    /*FONTE padrão.*/
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /*Cores padrão*/
+    --color-font: #b3b3b3;
+    --color-background-nav: #121212;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07); /*Estamos definindo a cor e o final é a opacidade*/
+}

@@ -71,3 +71,5 @@ ou seja quando muda o estado ao passar o mouse sobre esse elemento ele irá no c
 .sidebar .cookies a:hover{
     text-decoration: underline;
 }
+
+

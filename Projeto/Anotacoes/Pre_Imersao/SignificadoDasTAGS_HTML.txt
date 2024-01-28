@@ -1,6 +1,12 @@
 
  == Siginificado das TAGS HTML.
 
+  ** Diferença de class e ID dentro das tags **
+ class --> Posso utilizar uma classe em outros lugares.
+ ID --> Ba prática utilizar em apenas um lugar por se tratar de ID. 
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR"> -- Defini a lingua que iremos utilizar.
 <head>
@@ -34,9 +40,8 @@ ou separar partes do texto, de forma que o código CSS ou a programação javasc
 diferente, irá alterar somente essa div desde que ela tenha uma classe.
  <section></section> --> É um código aonde iremos trabalhar porçoes diferentes, como se todo o conteudo ali dentro fosse relacionado ao mesmo assunto.
 Como se a casa fosse a div e a section os comodos.
-
-
-
+<input> --> Tag utilizada para criar um campo de busca, podendo ser de outro tipo também, e temos algumas propriedades que podemos colocar dentro desta tag.
+EX: <input id="serach-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
 
 
 

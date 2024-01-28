@@ -1,0 +1,101 @@
+/*Estilizando o container inteiro, o "quadrado inteiro"*/
+.main-container{
+    max-width: 80vw; /* Largura máxima, ou seja o vw, significa "view Port".  No caso irá
+    ficar 20% da tela pro menu lateral e 80% resntante para a tela de navegação de cima.*/
+    height: 100vh; /*Significa que irá ocupar 100% da tela.*/
+    margin-left: 320px; /*Joga/empurra o conteudo pra direita*/
+    margin-right: 56px; /*Joga/empurra o conteudo pra Esquerda*/
+
+}
+
+/*Estilizando a tag Nav, com o conteudo.*/
+.header__navigation{
+    display: flex;
+    justify-content: space-between; /*distribui o conteudo com os mesmos espaçamentos entre eles.*/
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--color-background-nav);
+}
+
+/*Estilizando a classe navigation, aonde tem as setas, o input de pesquisa.*/
+.header__navigation .navigation{
+    display: flex;
+    justify-content: space-around; /*Deste modo ele irá fazer uma tratativa deixando os elementos em volta dele.*/
+    align-items: center;
+}
+
+/*Estilizando a seta de esquerda*/
+.header__navigation .navigation .arrow-left{
+    margin-right: 1.25rem; /*O rem é uma unidade de medida que não é estatico, ele é relativa.
+    Aproximadamente 16 px equivale à 1rem*/
+}
+
+/*Desta forma eu estou atribuindo á duas classes diferentes as propriedades abaixo*/
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon); 
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #fff;
+    text-overflow: ellipsis; /*acrescenta os 3 pontinhos quando tem muito texto.*/
+    overflow: hidden; /*trabalha em conjunto com o text-overflow, escondendo o restante do texto*/
+    white-space: nowrap; /*deixa o texto em uma linha só.*/
+    outline: none; /*não criar a barrinha em volta para digitar*/
+}
+
+.header__login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+}
