@@ -1,0 +1,41 @@
+		===========  AULA 04: CSS Grid, Media Queries e Manipulação do DOM com JavaScript ======
+
+LINK AULA -> https://www.youtube.com/watch?v=XNnWHD9vo0Y&feature=youtu.be
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Criamos o @media (media-queries.css) que basicamente defini um padrão de largura que a nossa tela pode alcançar.
+ex:
+@media screen and (max-width: 1015px) {
+    .offer__list-item {
+      grid-template-columns: 1fr 1fr; -- Defini quantas colunas vai ter. (2Cards).
+    }
+  }
+
+ A classe .offer__list-item é responsavel por ter carregar o dispay grid, que esta definindo quantas colunas
+tem na tela. (ps: temos que fazer o link no html por ultimo, para não sobrescrever com as outras propriedades CSS.)
+
+Ou seja até a resolução 1015px, ele irá carregar dois carts de "artistas", acima disso ele irá carregar os 5 que foi definido.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+-- Vamos criar um json server, para poder ativar o "buscar" e quando pesquisar por um artista, aparecer alguma informação.
+Geralmente isso é feito através de uma API, mas como não temos, iremos realizar um api e fazer um mock.
+Para instalar, basta digitar: npm i json-server -g
+
+ Após isso criamos a pasta "api-artists" e nela criamos o arquivo aonde vai ter a estrutura, como se fosse a chamada da API.
+ Para subir esse arquivo json e poder consumir ele, utilizamos o seguinte trecho:
+json-server --watch api-artists/artists.json --port 3000
+ Com isso ela já está no ar e podemos utilizar essa API.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+-- Para importar o JS no html, devemos declarar no final antes de fechar o body, porque desta forma atrasamos o carregamento
+do JS e com isso se tiver algum erro no JS não atrapalha o carregamento da tela.
+Ex: <script src="script.js" type="text/javascript"></script>
+
+-- Agora iremos montar a função dentro do JS, que seria a logica da página, e iremos utilizar o conceito DOM
+(document object model)
+
+
+
